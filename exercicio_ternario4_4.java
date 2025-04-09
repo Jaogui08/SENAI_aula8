@@ -18,9 +18,9 @@ public class exercicio_ternario4_4 {
 		bonus = (anos <= 3 ? salario*0.05 : salario*0.07);	
 		System.out.println("Você recebeu um bônus e seu salário aumentou para: " + (salario+bonus));
 		
+		scanner.close();
 		}
 	
-	    
 
 	}
 

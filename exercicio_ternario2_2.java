@@ -22,7 +22,7 @@ public class exercicio_ternario2_2 {
 		System.out.print("\nInforme sua senha: ");
 		String senha = scanner.nextLine();
 		
-		System.out.println((user.equals(usermaquina)) ? "Bem-vindo ao sistema SENAI" : "Senha incorreta");
+		System.out.println((senha.equals(senhamaquina)) ? "Bem-vindo ao sistema SENAI" : "Senha incorreta");
 		
 		scanner.close();
 
